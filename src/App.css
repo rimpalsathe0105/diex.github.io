@@ -14,21 +14,20 @@
   color: antiquewhite;
   font-size: large;
 }
-
-.submit{
-  border-color: green;
-  padding: 20px;
-  border-radius: 20px;
-  font-weight: bold;
-}
-
 .Home{
   padding: 10px;
-  border: none;
   font-weight: bold;
-  background-color: violet;
+  border: none;
+  background-color: darkgrey;
+  color: maroon;
 }
-
+.Home:hover{
+  padding: 10px;
+  font-weight: bold;
+  border: none;
+  background-color: darkgrey;
+  color: white;
+}
 .Navigation{
-  background-color: violet;
+  background-color:darkgrey;
 }

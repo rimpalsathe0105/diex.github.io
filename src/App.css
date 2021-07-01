@@ -1,19 +1,18 @@
 .Header{
-  background-color: rgb(164, 43, 235);
   width: auto;
   height: 70px;
   position: relative;
 }
 .Parul{
   font-weight: bold;
-  color: antiquewhite;
+  color: black;
   font-size: large;
   padding-top: 10px;
 }
 
 .University{
-  color: antiquewhite;
-  font-size: large;
+  color: red;
+  font-size: larger;
 }
 .Home{
   padding: 10px;

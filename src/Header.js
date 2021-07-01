@@ -5,7 +5,7 @@ export default function Header(){
             <div className = "Header">
                 <center>
                 <div className = "Parul">
-                Parul
+                Parul&reg;
             </div>
             <div className = "University">
                  University

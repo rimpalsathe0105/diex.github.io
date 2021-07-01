@@ -9,38 +9,18 @@
   font-size: large;
   padding-top: 10px;
 }
-
 .University{
   color: red;
   font-size: larger;
 }
-.Home{
-  padding: 10px;
-  font-weight: bold;
-  border: none;
-  background-color: darkgrey;
-  color: maroon;
+.Google{
+  align-content: right;
 }
-.Home:hover{
-  padding: 10px;
-  font-weight: bold;
-  border: none;
-  background-color: darkgrey;
-  color: white;
-}
-.Navigation{
-  background-color:darkgrey;
-}
-.TextBox{
-  padding: 5px;
-  width: auto;
+.g-signin2{
+  position: relative;
+  right: 0px;
+  width: 300px;
+  border: grey;
+  float: right;
 
-}
-.SignUp_Form{
-  padding: 70px;
-  background-color: whitesmoke;
-}
-.SignUp_Button{
-  padding:10px;
-  width: 500px;
 }

@@ -1,6 +1,7 @@
 import React from 'react';
 import image from './forMainPage.png';
 
+
 export default function SignUp() {
     return (
         <div className="LogIn">
@@ -11,7 +12,6 @@ export default function SignUp() {
             <div className="Log in">
                 <table className="ForGButton" align="center">
                     <tr>
-                    
                     </tr>
                 </table>
             </div>

@@ -1,56 +1,19 @@
 import React from 'react';
+import forMainPageImage from './forMainPage.png';
 
-export default function SignUp(){
-        return(
-            <div className = "Login">
-              <form id = "signup" method = "POST">
-                <center>
-                <table className = "SignUp_Form">
-                    <tr>
-                      <td>
-                        Email ID 
-                      </td>
-                      <td>
-                        <input type = "email" id = "email" className = "TextBox"/>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        Password 
-                      </td>
-                      <td>
-                        <input type = "password" id = "password" className = "TextBox"/>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        Enrollment Number 
-                      </td>
-                      <td>
-                        <input type = "text" id = "enrollment_number" className = "TextBox"/>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        Confirm Password 
-                      </td>
-                      <td>
-                        <input type = "password" id = "conform_password" className = "TextBox"/>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td colSpan = "2">
-                       <center><input type = "submit" id = "signup" className = "SignUp_Button"/></center> 
-                      </td>
-                    </tr>
-                    <tr>
-                      <td colSpan = "2">
-                        <center><input type = "reset" id = "reset" className = "Reset_Button"/></center>
-                      </td>
-                    </tr>
-                  </table>
-                </center>
-              </form>
-            </div>
-        );
+
+export default function SignUp() {
+    return (
+        <div className="SignUp">
+            <h1> <marquee>Coming Soon</marquee> </h1>
+            <div className="Image_Section">
+                <img src={forMainPageImage} width="600" height="500" className="Logo"></img> <br></br>
+            </div> 
+            <div className="g-signin2" data-onsuccess={onSuccess}></div>
+        </div>
+    );
 }
+
+function onSuccess(googleUser) {
+    console.log('Logged in as: ' + JSON.stringify(googleUser.getBasicProfile().getName()));
+  }
